@@ -1,0 +1,38 @@
+Command Line Arguments:
+     dir = uploaded_images/ 
+    arch = resnet 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 7 key-value pairs.
+Below are 7 of them:
+ 1 key:                   gecko_80.jpg  label:                      gecko
+ 2 key:              Basenji_00974.jpg  label:                    basenji
+ 3 key:                     cat_02.jpg  label:                        cat
+ 4 key:               Collie_03797.jpg  label:                     collie
+ 5 key:                   gecko_02.jpg  label:                      gecko
+ 6 key:                     cat_01.jpg  label:                        cat
+ 7 key:         Basset_hound_01034.jpg  label:               basset hound
+
+ ** Statistics from calculates_results_stats() function:
+N Images:  7  N Dog Images:  3  N NotDog Images:  4 
+Pct Corr dog: 100.0 Pct Corr NOTdog:  75.0  Pct Corr Breed: 100.0
+
+ ** Check Statistics - calculated from this function as a check:
+N Images:  7  N Dog Images:  3  N NotDog Images:  4 
+Pct Corr dog: 100.0 Pct Corr NOTdog:  75.0  Pct Corr Breed: 100.0
+
+
+*** Results Summary for CNN Model Architecture RESNET ***
+N Images            :   7
+N Dog Images        :   3
+N Not-Dog Images    :   4
+ 
+pct_match           :  57.1
+pct_correct_dogs    : 100.0
+pct_correct_breed   : 100.0
+pct_correct_notdogs :  75.0
+
+INCORRECT Dog/NOT Dog Assignments:
+Pet Label:                        cat   Classifier Label:   norwegian elkhound, elkhound
+
+** Total Elapsed Runtime: 0:0:0

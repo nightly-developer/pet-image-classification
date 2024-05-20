@@ -1,0 +1,42 @@
+Command Line Arguments:
+     dir = pet_images/ 
+    arch = vgg 
+ dogfile = dognames.txt
+
+Pet Image Label Dictionary has 40 key-value pairs.
+Below are 10 of them:
+ 1 key:     Golden_retriever_05257.jpg  label:           golden retriever
+ 2 key:              Basenji_00963.jpg  label:                    basenji
+ 3 key:            Dalmatian_04068.jpg  label:                  dalmatian
+ 4 key:                   gecko_80.jpg  label:                      gecko
+ 5 key:            Dalmatian_04037.jpg  label:                  dalmatian
+ 6 key:               Beagle_01170.jpg  label:                     beagle
+ 7 key:              Basenji_00974.jpg  label:                    basenji
+ 8 key:                Boxer_02426.jpg  label:                      boxer
+ 9 key:       Great_pyrenees_05367.jpg  label:             great pyrenees
+10 key:       Boston_terrier_02285.jpg  label:             boston terrier
+
+ ** Statistics from calculates_results_stats() function:
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  93.3
+
+ ** Check Statistics - calculated from this function as a check:
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  93.3
+
+
+*** Results Summary for CNN Model Architecture VGG ***
+N Images            :  40
+N Dog Images        :  30
+N Not-Dog Images    :  10
+ 
+pct_match           :  87.5
+pct_correct_dogs    : 100.0
+pct_correct_breed   :  93.3
+pct_correct_notdogs : 100.0
+
+INCORRECT Dog Breed Assignment:
+Real:                     beagle   Classifier:  walker hound, walker foxhound
+Real:             great pyrenees   Classifier:                         kuvasz
+
+** Total Elapsed Runtime: 0:0:15
